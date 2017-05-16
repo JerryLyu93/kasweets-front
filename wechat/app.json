@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "可安法式西点",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#cc9d3d",
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "list": [{
+      "iconPath": "assets/images/home.png",
+      "selectedIconPath": "assets/images/home-active.png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "iconPath": "assets/images/sort.png",
+      "selectedIconPath": "assets/images/sort-active.png",
+      "pagePath": "pages/sort/sort",
+      "text": "类别"
+    }, {
+      "iconPath": "assets/images/cart.png",
+      "selectedIconPath": "assets/images/cart-active.png",
+      "pagePath": "pages/cart/cart",
+      "text": "购物车"
+    }, {
+      "iconPath": "assets/images/user.png",
+      "selectedIconPath": "assets/images/user-active.png",
+      "pagePath": "pages/user/user",
+      "text": "我的"
+    }]
+  },
+  "debug": true,
+  "networkTimeout": {
+    "request": 60000,
+    "connectSocket": 60000,
+    "uploadFile": 60000,
+    "downloadFile": 60000
+  }
+}

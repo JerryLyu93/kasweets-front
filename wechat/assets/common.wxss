@@ -1,0 +1,15 @@
+/*
+common.wxss
+*/
+.kasweets-header {
+  height: 88rpx;
+  background-color: #fafafa;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.kasweets-header .logo {
+  margin-top: 14rpx;
+  height: 60rpx;
+}
