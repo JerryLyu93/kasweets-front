@@ -13,11 +13,13 @@
       </block>
     </swiper>
   </view>
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="goods-list">
+    <scroll-view scroll-y="true">
+      <views class="goods-list-item" wx:for="{{goods}}">
+        <image mode="aspectFill" src="{{item.imgUrl}}"></image>
+        <text class="goods-list-title">{{item.title}}</text>
+        <text class="goods-list-price">¥{{item.price}}</text>
+      </views>
+    </scroll-view>
   </view>
 </view>

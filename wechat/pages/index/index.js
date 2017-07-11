@@ -3,15 +3,34 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
+    goods: [{
+      id: 1,
+      title: '百香果芒奶油蛋糕',
+      price: '120',
+      imgUrl: 'http://www.lucullus.com.hk/images/item/WONDERLANDQCTE.PNG'
+    }, {
+      id: 2,
+      title: '百香果芒奶油蛋糕',
+      price: '120',
+      imgUrl: 'http://www.lucullus.com.hk/images/item/WONDERLANDQCTE.PNG'
+    }, {
+      id: 3,
+      title: '百香果芒奶油蛋糕',
+      price: '120',
+      imgUrl: 'http://www.lucullus.com.hk/images/item/WONDERLANDQCTE.PNG'
+    }, {
+      id: 4,
+      title: '百香果芒奶油蛋糕',
+      price: '120',
+      imgUrl: 'http://www.lucullus.com.hk/images/item/WONDERLANDQCTE.PNG'
+    },],
     imgUrls: [
      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
     ],
-    indicatorDots: false,
-    autoplay: false,
+    indicatorDots: true,
+    autoplay: true,
     interval: 5000,
     duration: 1000
   },

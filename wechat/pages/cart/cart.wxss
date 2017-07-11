@@ -1,0 +1,127 @@
+.cart-price-count {
+  height: 100rpx;
+  padding: 0 40rpx;
+  background-color: #f0f0f0;
+  border-bottom: 1rpx solid #ccc;
+}
+.cart-price-count .title {
+  float: left;
+  font-size: 36rpx;
+  line-height: 100rpx;
+}
+.cart-price-count .price {
+  float: right;
+  font-size: 40rpx;
+  line-height: 100rpx;
+  color: #da413f;
+}
+.cart-goods-list {
+  background-color: #fff;
+  padding-left: 40rpx;
+  border-bottom: 1rpx solid #e3e3e3;
+}
+.cart-goods {
+  display: flex;
+  padding: 40rpx 0;
+  border-bottom: 1rpx solid #e3e3e3;
+}
+.cart-goods:last-child {
+  border-bottom: 0;
+}
+.cart-goods > view {
+  flex: 1;
+}
+.cart-goods .goods-image {
+  flex:0 0 160rpx;
+  height: 160rpx;
+  background-color: #f0f0f0;
+  border-radius: 8rpx;
+  border: 1rpx solid #e3e3e3;
+}
+.cart-goods .goods-info {
+  position: relative;
+  padding-left: 40rpx;
+}
+.cart-goods .goods-info > text {
+  display: block;
+}
+.cart-goods .goods-name {
+}
+.cart-goods .goods-size {
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  color: #878787;
+}
+.cart-goods .goods-price {
+  position: absolute;
+  bottom: 0;
+  left: 40rpx;
+  font-size: 32rpx;
+  color: #e35850;
+}
+.cart-goods .goods-control {
+  flex: 0 0 124rpx;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+}
+.cart-goods .goods-control-count {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.cart-goods .goods-control-count .plus {
+  position: relative;
+  flex: 1;
+  flex: 0 0 42rpx;
+  border-radius: 50%;
+  border: 1px solid #999;
+}
+.cart-goods .goods-control-count .plus:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 22rpx;
+  height: 2rpx;
+  background-color: #999;
+}
+.cart-goods .goods-control-count .plus:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2rpx;
+  height: 22rpx;
+  background-color: #999;
+}
+.cart-goods .goods-control-count .num {
+  flex: 1;
+  display: block;
+  text-align: center;
+  line-height: 74rpx;
+}
+.cart-goods .goods-control-count .subtract {
+  position: relative;
+  flex: 1;
+  flex: 0 0 42rpx;
+  border-radius: 50%;
+  border: 1px solid #999;
+}
+.cart-goods .goods-control-count .subtract:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 22rpx;
+  height: 2rpx;
+  background-color: #999;
+}
+.cart-buttons-buy {
+  margin:40rpx;
+  border: none;
+  border-radius: 44rpx;
+  background-color: #dbb56d;
+}

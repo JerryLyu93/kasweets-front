@@ -1,6 +1,9 @@
 /*
 common.wxss
 */
+.container {
+  color: #333;
+}
 .kasweets-header {
   height: 88rpx;
   background-color: #fafafa;
@@ -12,4 +15,9 @@ common.wxss
 .kasweets-header .logo {
   margin-top: 14rpx;
   height: 60rpx;
+}
+.kasweets-header .title {
+  display: block;
+  line-height: 88rpx;
+  font-size: 36rpx;
 }

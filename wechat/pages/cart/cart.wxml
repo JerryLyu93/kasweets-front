@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="kasweets-header">
+    <text class="title">购物车</text>
+  </view>
+  <view class="kasweets-main">
+    <view class="cart-price-count">
+      <text class="title">总计</text>
+      <text class="price">¥{{cart.priceCount}}</text>
+    </view>
+    <view class="cart-goods-list">
+      <view class="cart-goods" wx:for="{{cart.goods}}">
+        <image class="goods-image" mode="aspectFill" src="{{item.imgUrl}}"></image>
+        <view class="goods-info">
+          <text class="goods-name">{{item.name}}</text>
+          <text class="goods-size">尺寸: {{item.size}}</text>
+          <text class="goods-price">¥{{item.price}}</text>
+        </view>
+        <view class="goods-control">
+          <view class="goods-control-count">
+            <view class="plus" data-index="{{index}}" bindtap="plusCount"></view>
+            <text class="num">{{item.count}}</text>
+            <view class="subtract" data-index="{{index}}" bindtap="subCount"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="cart-buttons">
+      <button class="cart-buttons-buy">去结算</button>
+    </view>
+  </view>
+</view>
