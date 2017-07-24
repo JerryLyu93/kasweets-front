@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="kasweets-header">
+    <text class="title">我的</text>
+  </view>
+  <view class="kasweets-main">
+    <view class="user-board">
+      <image class="user-avatar" mode="aspectFill" src="{{userInfo.avatarUrl}}"></image>
+      <text class="user-name">{{userInfo.nickName}}</text>
+      <text class="user-phone">{{userInfo.phone}}</text>
+      <text class="user-credit">可用积分: <text class="user-credit-num">{{userInfo.credit}}</text></text>
+    </view>
+    <view class="navigator-list">
+      <navigator url="/pages/my/order" hover-class="navigator-hover"><image src="../../assets/images/order.png"/>我的订单</navigator>
+      <navigator url="/pages/my/address"  hover-class="other-navigator-hover"><image src="../../assets/images/address.png"/>地址管理</navigator>
+      <navigator url="/pages/my/address"  hover-class="other-navigator-hover"><image src="../../assets/images/credit.png"/>积分管理</navigator>
+    </view>
+  </view>
+</view>

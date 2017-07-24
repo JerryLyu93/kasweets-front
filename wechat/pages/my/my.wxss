@@ -1,0 +1,58 @@
+.user-board {
+  padding: 40rpx;
+  background-color: #fff;
+  height: 160rpx;
+  border-bottom: 2rpx solid #e3e3e3;
+}
+.user-avatar {
+  float: left;  
+  width: 160rpx;
+  height: 160rpx;
+  margin-right: 40rpx;
+  border-radius: 8rpx;
+}
+.user-name {
+  font-size: 36rpx;
+  line-height: 100rpx;
+  vertical-align: bottom;  
+}
+.user-phone {
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  vertical-align: bottom;
+  color: #535353;
+}
+.user-credit {
+  font-size: 32rpx;
+  display: block;
+  color: #535353;
+}
+.user-credit-num {
+  vertical-align: bottom;
+  color: rgb(218, 65, 63);
+}
+
+.navigator-list {
+  margin: 20rpx 0;
+  background-color: #fff;
+  padding-left: 110rpx;
+}
+
+.navigator-list navigator {
+  font-size: 32rpx;
+  color: #666;
+  padding: 30rpx 0;
+  border-bottom: 2rpx solid #e3e3e3;
+}
+
+.navigator-list navigator image {
+  display: block;
+  float: left;
+  width: 42rpx;
+  height: 42rpx;
+  margin-top: -6rpx;
+  margin-left: -74rpx;
+}
+.navigator-list navigator:last-child {
+  border-bottom: none;
+}

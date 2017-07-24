@@ -5,6 +5,7 @@ common.wxss
   color: #333;
 }
 .kasweets-header {
+  position: relative;
   height: 88rpx;
   background-color: #fafafa;
   width: 100%;
@@ -20,4 +21,17 @@ common.wxss
   display: block;
   line-height: 88rpx;
   font-size: 36rpx;
+}
+.kasweets-header .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 88rpx;
+  height: 88rpx;
+  padding: 22rpx 0;
+  box-sizing: border-box;
+}
+.kasweets-header .back image{
+  height: 44rpx;
+  width: 44rpx;
 }

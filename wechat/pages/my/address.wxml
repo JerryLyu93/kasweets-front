@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="kasweets-header">
+    <navigator class="back" url="/pages/my/my" navigateBack hover-class="">
+      <image src="../../assets/images/back.png"></image>
+    </navigator>
+    <text class="title">地址管理</text>
+  </view>
+  <view class="kasweets-main">
+    <view class="address-list" wx:for="{{addressList}}">
+      <view class="address-item">
+        <view class=""><text class="item-name">{{item.name}}</text><text class="item-tel">{{item.tel}}</text></view>
+        <view class=""><text class="item-address">{{item.address}}</text></view>
+        <view class="item-control">
+          <view class="button control-edit"><image src="../../assets/images/edit.png"></image>编辑</view>
+          <view class="button control-delete"><image src="../../assets/images/delete.png"></image>删除</view>
+        </view>
+      </view>
+    </view>
+    <view class="address-buttons">
+      <button class="address-button-new">创建新地址</button>
+    </view>
+  </view>
+</view>
+

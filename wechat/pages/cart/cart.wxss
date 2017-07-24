@@ -45,8 +45,6 @@
 .cart-goods .goods-info > text {
   display: block;
 }
-.cart-goods .goods-name {
-}
 .cart-goods .goods-size {
   margin-top: 20rpx;
   font-size: 28rpx;
