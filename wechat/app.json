@@ -1,9 +1,11 @@
 {
   "pages": [
+    "pages/goods/goods",    
+    "pages/index/index",    
+    "pages/my/addressedit",
     "pages/my/address",
     "pages/my/my",    
     "pages/cart/cart",
-    "pages/index/index",
     "pages/logs/logs"
   ],
   "window": {
@@ -35,7 +37,7 @@
     }, {
       "iconPath": "assets/images/user.png",
       "selectedIconPath": "assets/images/user-active.png",
-      "pagePath": "pages/user/my",
+      "pagePath": "pages/my/my",
       "text": "我的"
     }]
   },

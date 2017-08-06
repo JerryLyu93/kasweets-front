@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="kasweets-header">
+    <navigator class="back" url="/pages/my/my" navigateBack hover-class="">
+      <image src="../../assets/images/back.png"></image>
+    </navigator>
+    <text class="title">地址管理</text>
+  </view>
+  <view class="kasweets-main">
+    <form bindsubmit="formSubmit" bindreset="formReset">
+      <view class="form-group">
+        <view class="name form-control">
+          <text class="label">收货人</text>
+          <input class="value" name="name" placeholder="" />
+        </view>
+        <view class="name form-control">
+          <text class="label">联系方式</text>
+          <input class="value" name="address" placeholder="" />
+        </view>
+        <view class="name form-control">
+          <text class="label">地区</text>
+          <picker class="value" mode="region" name="region" placeholder="">
+            <view class="picker">
+              {{region[0]}} {{region[1]}} {{region[2]}}
+            </view>
+          </picker>
+        </view>
+        <view class="name form-control">
+          <text class="label">详细地址</text>
+          <input class="value" name="address" placeholder="" />
+        </view>
+      </view>
+    </form>
+    <view class="fixedBottom-buttons">
+      <button class="save">保存</button>
+    </view>
+  </view>
+</view>

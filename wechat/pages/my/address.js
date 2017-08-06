@@ -27,5 +27,11 @@ Page({
         userInfo:userInfo
       })
     })
+  },
+  bindNewAddressTap () {
+    wx.chooseAddress({
+      success: res => {console.log(res)},
+      fail: err => {console.log(err)}
+    })
   }
 })

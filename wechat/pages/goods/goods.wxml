@@ -1,0 +1,44 @@
+<view class="container">
+  <navigator class="back" url="/pages/my/my" navigateBack hover-class="">
+    <image src="../../assets/images/back_tran.png"></image>
+  </navigator>
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" mode="aspectFit" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="container-body">
+    <view class="header">
+      <text class="title">百香果芒奶油蛋糕</text>
+      <text class="price">¥180</text>
+    </view>
+    <view class="size-selecter box">
+      <text class="label">规格</text>
+      <view class="select-list">
+        <view class="select-item">小</view>
+        <view class="select-item active">中</view>
+        <view class="select-item">大</view>
+        <view class="select-item">超大</view>
+      </view>
+      <view class="size-des">
+        <text class="des-li">6英寸</text>
+        <text class="des-li">适合3-6个人使用</text>
+        <text class="des-li">含5套餐具</text>
+      </view>
+    </view>
+    <view class="description box">
+      <text class="label">详情</text>
+      <text class="content">酸爽的百香果，清新的芒果，浓郁的椰子，混合着独特调制的微甜不腻的奶油，在舌尖欢呼雀跃，不断冲击着味蕾，却是让人感觉如此惬意。不甜不腻的口感，给予人轻松自然的味觉感受。</text>
+    </view>
+  </view>
+  <view class="container-footer">
+    <navigator class="goCart" url="/pages/cart/cart" open-type="navigate" hover-class="">
+      <image src="../../assets/images/cart.png"></image>      
+    </navigator>
+    <view class="buy">立即购买</view>    
+    <view class="addToCart">加入购物车</view>
+  </view>
+</view>

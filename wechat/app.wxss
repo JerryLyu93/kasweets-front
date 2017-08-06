@@ -7,3 +7,47 @@ page {
 .container {
   height: 100%;
 }
+.form-group {
+  margin-bottom: 18rpx;
+  padding: 0 24rpx;
+  border: 1rpx solid #e3e3e3;
+  border-radius: 8rpx;
+  background-color: #fff;
+}
+.form-control {
+  height: 90rpx;
+  font-size: 28rpx;
+  line-height: 90rpx;  
+  border-bottom: 1rpx solid #e3e3e3;
+}
+.form-control:last-child {
+  border-bottom: none;
+}
+.form-control .label {
+  float: left;
+  width: 120rpx;
+  margin-right: -120rpx;
+  color: #999;
+}
+.form-control .value {
+  margin-left: 140rpx;
+  height: 90rpx;
+  text-align: right;
+}
+.form-control textarea.value {
+  width: auto;
+}
+
+.fixedBottom-buttons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.fixedBottom-buttons button {
+  margin:40rpx;
+  border: none;
+  border-radius: 44rpx;
+  background-color: #dbb56d;
+}

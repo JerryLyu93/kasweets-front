@@ -15,7 +15,7 @@
   </view>
   <view class="goods-list">
     <scroll-view scroll-y="true">
-      <views class="goods-list-item" wx:for="{{goods}}">
+      <views class="goods-list-item" wx:for="{{goods}}" bindtap="tapItem" data-id="{{item.id}}">
         <image mode="aspectFill" src="{{item.imgUrl}}"></image>
         <text class="goods-list-title">{{item.title}}</text>
         <text class="goods-list-price">¥{{item.price}}</text>

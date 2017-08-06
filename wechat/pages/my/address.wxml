@@ -18,7 +18,7 @@
       </view>
     </view>
     <view class="address-buttons">
-      <button class="address-button-new">创建新地址</button>
+      <button class="address-button-new" bindtap="bindNewAddressTap">添加新地址</button>
     </view>
   </view>
 </view>

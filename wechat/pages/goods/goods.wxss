@@ -1,0 +1,141 @@
+.container {
+  position: relative;
+  background-color: #fff;
+  padding-bottom: 120rpx;
+}
+.container .back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+
+  padding: 20rpx;
+}
+.container .back image {
+  width: 34rpx;
+  height: 34rpx;
+}
+
+.container swiper {
+  background-color: #f0f0f0;
+  height: 440rpx;
+}
+.container swiper-item {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 70rpx 0 40rpx 0;
+}
+.container swiper-item image{
+  height: 100%;
+}
+.container-body {
+  padding: 40rpx;
+}
+.container-body .header {
+  text-align: center;
+}
+.container-body .title {
+  display: block;
+  margin-bottom: 30rpx;
+  font-size: 40rpx;
+  line-height: 40rpx;
+  color: #333;
+}
+.container-body .price {
+  display: block;
+  margin-bottom: 40rpx;
+  font-size: 36rpx;
+  color: #e35850;
+  line-height: 36rpx;
+}
+.container-body .box {
+  border-top: 1rpx solid #e3e3e3;
+  padding-top: 40rpx;
+}
+.container-body .box .label {
+  display: block;
+  font-size: 28rpx;
+  line-height: 28rpx;
+  margin-bottom: 40rpx;
+  color: #999;
+}
+.container-body .select-item {
+  display: inline-block;
+  padding: 18rpx 30rpx;
+  margin-right: 40rpx;
+  font-size: 28rpx;
+  color: #999;
+  background-color: #f0f0f0;
+  border-radius: 8rpx;
+}
+.container-body .select-item.active {
+  color: #333;
+  background-color: #dbb56d;
+}
+.container-body .size-des {
+  margin: 40rpx 0;
+}
+.container-body .des-li {
+  position: relative;
+  display: block;
+  padding-left: 32rpx;
+  margin-bottom: 20rpx;
+  color: #666;
+  font-size: 28rpx;
+}
+.container-body .des-li:before {
+  content: '';
+  position: absolute;
+  top: 7rpx;
+  left: 0;
+  height: 12rpx;
+  width: 12rpx;
+  background-color: #e3e3e3;
+  border-radius: 50%;
+}
+.container-body .description .content {
+  display: block;
+  font-size: 28rpx;
+  line-height: 42rpx;
+  color: #666;
+}
+.container-footer {
+  height: 90rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #666;
+  border-top: 1px solid #ccc;
+  line-height: 90rpx;
+  color: #333;
+  text-align: center;  
+  font-size: 30rpx;
+}
+.container-footer .goCart {
+  position: absolute;
+  z-index: 50;
+  left: 40rpx;
+  top: -20rpx;
+  height: 90rpx;
+  width: 90rpx;
+  border-radius: 50%;
+  background-color: #e3e3e3;
+}
+.container-footer .goCart image {
+  margin-top: 18rpx;
+  width: 54rpx;
+  height: 54rpx;
+}
+.container-footer .addToCart {
+  float: right;
+  height: 100%;
+  width: 200rpx;
+  background-color: #fafafa;
+}
+.container-footer .buy {
+  float: right;
+  height: 100%;
+  width: 200rpx;
+  background-color: #dbb56d;
+}

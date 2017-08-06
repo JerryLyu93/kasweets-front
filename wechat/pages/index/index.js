@@ -50,5 +50,10 @@ Page({
         userInfo:userInfo
       })
     })
+  },
+  tapItem: function(e) {
+    wx.navigateTo({
+      url: '/pages/goods/goods?id=' + e.currentTarget.dataset.id
+    })
   }
 })
